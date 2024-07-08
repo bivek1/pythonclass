@@ -75,30 +75,13 @@ class Calculator:
     def sqrShow(self):
         print(self.total_amt)
 
-    def splitFunction(self):
-        if '+' in self.number:
-            print(self.number.split("+"))
-            self.splited_data = self.number.split("+")
-            print(self.splited_data)
-            self.sumFunction()
+    def sqrShow(self):
+        print(self.total_amt)
 
-        elif '-' in self.number:
-            self.splited_data = self.number.split("-")
-            self.subFunction()
-        
-        elif "*" in self.number:
-            self.splited_data = self.number.split("*")   
-            self.multiplyFunction()
-        
-        elif '/' in self.number:
-            self.splited_data = self.number.split("/")  
-            self.divideFunction() 
+    def change(self):
+        print("This is change commit to show ")
 
-        else:
-            self.total_amt = math.sqrt(int(self.number))
-            self.sqrShow()
-
-
+   
 
 while True:
     print("Please Enter exit to exit if you want:")
